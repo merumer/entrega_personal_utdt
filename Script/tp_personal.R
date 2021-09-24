@@ -220,9 +220,6 @@ library(wordcloud)
 wordcloud2(data=toppalabras, size=1.6)
 
 
-png("#103_commonality_wordcloud.png", width = 480, height = 480)
-wordcloud(commonality.cloud(once_tokenizado, max.words=100, random.order=FALSE))
-dev.off()
 
 #tp2: scrapping
 
